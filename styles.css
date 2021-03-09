@@ -3,3 +3,7 @@ h1 {
     font-size: xx-large;
     color: cornflowerblue;
 }
+
+img {
+    max-width: 100%;
+}
