@@ -1,14 +1,4 @@
-<!-- A landing page containing:
-
-An explanation of the project.
-Links to each visualizations page. There should be a sidebar containing preview images of each plot, and clicking an image should take the user to that visualization. -->
-
-<!-- The website must, at the top of every page, have a navigation menu that:
-
-- Has the name of the site on the left of the nav which allows users to return to the landing page from any page.
-- Contains a dropdown menu on the right of the navbar named "Plots" that provides a link to each individual visualization page.
-- Provides two more text links on the right: "Comparisons," which links to the comparisons page, and "Data," which links to the data page.
-- Is responsive such that at smaller screen sizes the navbar links are replaced by a sandwich menu. The nav must have similar behavior as the screenshots "Navigation Menu" section (notice the background color change). Again, bootstrap has relatively easy ways to accomplish this, but it's not the only way. -->
+<!-- landing page -->
 
 
 <!doctype html>
@@ -32,35 +22,35 @@ Links to each visualizations page. There should be a sidebar containing preview 
     <!-- navbar code from https://getbootstrap.com/docs/5.0/components/navbar/ -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
       <div class="container-fluid">
-          <a class="navbar-brand" href="index.html">Weather Summary</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-          </button>
-          <form class="d-flex">
-              <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                  <li class="nav-item dropdown">
-                      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                          Plots
-                      </a>
-                      <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                          <li><a class="dropdown-item" href="temp.html">Temperature</a></li>
-                          <li><a class="dropdown-item" href="humidity.html">Humidity</a></li>
-                          <li><a class="dropdown-item" href="wind.html">Wind</a></li>
-                          <li><a class="dropdown-item" href="cloudiness.html">Clouds</a></li>
-                      </ul>
-                      </li>
-                  <li class="nav-item">
-                  <a class="nav-link" aria-current="page" href="comparisons.html">Comparisons</a>
-                  </li>
-                  <li class="nav-item">
-                  <a class="nav-link" href="data.html">Data</a>
-                  </li>
+        <a class="navbar-brand" href="index.html">Weather Summary</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+        <form class="d-flex">
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Plots</a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="temp.html">Temperature</a></li>
+                <li><a class="dropdown-item" href="humidity.html">Humidity</a></li>
+                <li><a class="dropdown-item" href="wind.html">Wind</a></li>
+                <li><a class="dropdown-item" href="cloudiness.html">Clouds</a></li>
               </ul>
-              </div>
-          </form>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="comparisons.html">Comparisons</a>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link" href="data.html">Data</a>
+            </li>
+          </ul>
+          </div>
+        </form>
       </div>
     </nav>
+
+    <!-- page content -->
     <div class="container-fluid">
       <div class="row">
         <div class="col-sm-12, col-md-8">

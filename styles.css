@@ -1,6 +1,6 @@
 h1 {
     font-style: normal;
-    font-size: 75px;
+    font-size: 5vw;
     color: cornflowerblue;
 }
 
@@ -11,9 +11,9 @@ h3 {
     font-size: 1.75rem;
 }
 
-/* img {
+img {
     max-width: 100%;
-} */
+}
 
 .thumbnail {
     max-width: 100%;
