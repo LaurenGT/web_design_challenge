@@ -60,18 +60,57 @@ Links to each visualizations page. There should be a sidebar containing preview 
               </div>
           </form>
       </div>
-      </nav>
-
-    <h1>Summary: Latitude vs X</h1>
-    <img src="./Resources/assets/images/temp.png" align="left"/><p>The purpose of this analysis is to determine the impact latitude has on various weather conditions. To accomplish this, we used the OpenWeatherMaps API to genearate a randomized list of 500+ cities around the world. What we focused on in this analysis was a city's cloudiness, humidity, wind spead (mph) and the recorded maximum temperature on the day the data was pulled.</p>
-    <br>
-    <br>
-    <p>The data currently represented in this analysis is from January 5, 2017 so it is reflecting the weather of that time of year.If the data were to be pulled at a different time of year, say June, these visuals might reflect a different result given seasonal differences.</p>
+    </nav>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-sm-12, col-md-8">
+          <h1>Summary: Latitude vs X</h1>
+          <img src="./Resources/assets/images/globe.png" align="left" style="width: 50%; height: auto;"/>
+          <p>The purpose of this analysis is to determine the impact latitude has on various weather conditions. To accomplish this, we used the OpenWeatherMaps API to genearate a randomized list of 500+ cities around the world. What we focused on in this analysis was a city's cloudiness, humidity, wind spead (mph) and the recorded maximum temperature on the day the data was pulled.</p>
+          <br>
+          <p>The data is currently reflecting the weather from January 5, 2017. If the data were to be pulled at a different time of year, say June, these visuals might reflect a different result given seasonal differences.</p>
+        </div>
+        <div class="col-sm-12, col-md-4">
+          <h3>Visualizations</h3>
+          <div class="row">
+            <div class="col-sm-12, col-md-12, col-lg-6">
+              <div class="thumbnail">
+                <a href="temp.html">
+                  <img class="img-thumbnail float-left" src="./Resources/assets/images/temp.png" alt="temp visual">
+                </a>
+              </div>
+            </div>
+            <div class="col-sm-12, col-md-12, col-lg-6">
+              <div class="thumbnail">
+                <a href="wind.html">
+                  <img class="img-thumbnail float-left" src="./Resources/assets/images/wind.png" alt="">
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-12, col-md-12, col-lg-6">
+              <div class="thumbnail">
+                <a href="cloudiness.html" >
+                  <img class="img-thumbnail float-left" src="./Resources/assets/images/cloud.png" alt="">
+                </a>
+              </div>
+            </div>
+            <div class="col-sm-12, col-md-12, col-lg-6">
+              <div class="thumbnail">
+                <a href="humidity.html">
+                  <img class="img-thumbnail float-left" src="./Resources/assets/images/humidity.png" alt="">
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
   </body>
 
-  <footer>
-    
 
+  <footer>
 
   </footer>
 </html>
