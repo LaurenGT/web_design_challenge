@@ -1,3 +1,16 @@
+.navbar-custom{
+    background-color:lightslategray;
+}
+
+.navbar-custom .navbar-brand {
+    color: black;
+    font-size: 1.75rem;
+}
+
+.navbar-custom .collapse navbar-collapse {
+    color: black;
+}
+
 h1 {
     font-style: normal;
     font-size: 5vw;
